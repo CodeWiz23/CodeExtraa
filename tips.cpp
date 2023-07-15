@@ -1,4 +1,3 @@
-
 #include <iostream>
 #include <conio.h>
 using namespace std;
@@ -10,7 +9,7 @@ int main ()
     cout <<"Enter a number :";
     cin >>  num;
     cout << "Your number is : " <<num;
-    cout <<endl;
+    cout <<endl;//use this line to prevent cout to print twice
 
     cout <<"Enter word:";
     cin >> ch;
