@@ -7,7 +7,11 @@ int main ()
     cout << "Enter your age :";
     cin >> age;
 
-    if (age<18)
+    if (age<1)
+    {
+        cout <<"You didn't born !"<<endl;
+    }
+    else if ((age<18) && (age>0))
     {
         cout << "You can't come to my party !"<<endl;
 
@@ -18,6 +22,7 @@ int main ()
         cout <<"Get a kid pass for my party !"<<endl;
     }
 
+
     if (age>18)
     {
         cout << "You can came to my party !"<<endl;
@@ -25,4 +30,3 @@ int main ()
 
     return 0;
 }
-
