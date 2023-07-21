@@ -1,17 +1,28 @@
-#include <stdio.h>
-
+#include <iostream>
 using namespace std;
 
 int main ()
 {
+    int age ;
+    cout << "Enter your age :";
+    cin >> age;
 
-    int i = 0;
-
-    if (i>3;i++);
+    if (age<18)
     {
+        cout << "You can't come to my party !"<<endl;
 
-        cout<< i;
-       ;
     }
+
+    else if (age==18)
+    {
+        cout <<"Get a kid pass for my party !"<<endl;
+    }
+
+    if (age>18)
+    {
+        cout << "You can came to my party !"<<endl;
+    }
+
     return 0;
 }
+
