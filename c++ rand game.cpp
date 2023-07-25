@@ -4,6 +4,8 @@ using namespace std;
 
 int main ()
 {
+    while (1)
+    {
     int guess,randomNumber;
 
     cout << "Enter your guess number 1 to 5 :" << " ";
@@ -24,7 +26,7 @@ int main ()
         cout << "You have lost !" <<endl;
         cout << "The random number was : " <<randomNumber <<endl;
     }
-
+    }
     return 0;
 }
 
