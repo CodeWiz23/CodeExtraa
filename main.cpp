@@ -1,11 +1,12 @@
 #include <iostream>
-#include "myfirstclass.h"
-
+#include "student.h"
 using namespace std;
 
 int main()
 {
-    MyfirstClass ob1;
-    ob1.display();
+    student alex;
+
+    alex.display();
+
     return 0;
 }
